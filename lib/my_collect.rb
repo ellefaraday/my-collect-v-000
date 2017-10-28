@@ -6,5 +6,6 @@ def my_collect(array)
     while i < array.length
       new_collection << yield(array[i])
     end
+  end
   new_collection
 end
